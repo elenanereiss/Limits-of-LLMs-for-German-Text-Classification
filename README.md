@@ -32,8 +32,6 @@ For further information please see [datasets description](https://github.com/ele
 - [EuroLLM-9B-Instruct](https://huggingface.co/utter-project/EuroLLM-9B-Instruct)
 - [Teuken-7B-instruct-research-v0.4](https://huggingface.co/openGPT-X/Teuken-7B-instruct-research-v0.4)
 
-Further information about datasets can be found here []().
-
 #### Base LLMs for fine-tuning
 
 - [Llama-3.2-3B](https://huggingface.co/meta-llama/Llama-3.2-3B)
