@@ -1,50 +1,50 @@
 datasets={
-    "covid19": 
-        {
-            "file": 
-                {
-                    "train": "covid19_train.csv",
-                    "test": "covid19_test.csv"
-                },
-            "columns": ['title', 'text', 'informativeness', 'topic', 'credibility'],
-            "tasks": ['informativeness', 'topic', 'credibility'],
-            "definitions": 
-                {
-                    'informativeness': 
-                        {
-                            'Informative': 'Der Tweet ist informativ und enthält allgemeine Informationen. Er sollte einen gewissen Bezug zu COVID-19 haben.', 
-                            'Personal_Experience': 'Der Text ist informativ und berichtet über persönliche Erfahrungen (bezüglich Krankheit, Impfung, Nebenwirkungen usw.).', 
-                            'none': 'Der Text hat entweder keinen Bezug zu COVID-19, oder hat einen Bezug zu COVID-19, enthält aber keine Informationen, z.B. wenn es sich um eine persönliche Aussage (Meinung) ohne informativen Hintergrund handelt, oder wenn es sich um einen humorvollen oder sarkastischen Kommentar handelt.'
-                        },
-                    'topic': 
-                        {
-                            'Case_Report': 'Der Text ist ein Fallbericht oder im Text geht es um Statistiken.', 
-                            'Consequences': 'Der Text berichtet über Folgen einer Covid-Infektion (Langzeit-Covid, psychologische Aspekte, etc.)', 
-                            'Governm_Decisions': 'Der Text berichtet über Maßnahmen und Entscheidungen der Bundesregierung und ihre Auswirkungen auf Menschen, Länder und die Wirtschaft.', 
-                            'Risk_Reduction': 'Im Text geht es um Möglichkeiten zur Minderung des Infektionsrisikos.', 
-                            'Vaccination': 'Im Text geht es um Impfung: Allgemeine Informationen über den Impfstoff, Verfügbarkeit, Nebenwirkungen.', 
-                            'none': 'Der Text behandelt keines der oben genannten Themen, oder es ist unklar, um welches Thema es sich handelt, z. B. weil der Kontext fehlt oder weil der Inhalt nur andeutet, worum es geht.'
-                        }, 
-                    'credibility': 
-                        {
-                            'credible': 'Der Text und sein Inhalt scheinen bis zu einem gewissen Grad glaubwürdig zu sein.',
-                            'non-credible': 'Der Text und sein Inhalt scheinen nicht glaubwürdig zu sein und es ist sehr fraglich, ob man ihm trauen kann.', 
-                            'none': 'Anhand des Textes ist es nicht möglich zu entscheiden, ob der Inhalt glaubwürdig ist oder nicht.'
-                        }
-                },
-            "questions": 
-                {
-                    'informativeness': "Ist der Text informativ und hat der Text Bezug zu COVID-19? Antworte bitte mit einem Wort und als Antwort verwende eine Kategorie aus dieser Liste:\n- {}\n", 
-                    'topic': "Über welches Thema wird es im Text gesprochen? Antworte bitte mit einem Wort und als Antwort verwende eine Kategorie aus dieser Liste:\n- {}\n",
-                    'credibility': "Enthält der Text Tatsachenbehauptungen? Antworte bitte mit einem Wort und als Antwort verwende eine Kategorie aus dieser Liste:\n- {}\n"
-                }
-        },
+    # "covid19": 
+        # {
+            # "file": 
+                # {
+                    # "train": "covid19_train.csv",
+                    # "test": "covid19_test.csv"
+                # },
+            # "columns": ['title', 'text', 'informativeness', 'topic', 'credibility'],
+            # "tasks": ['informativeness', 'topic', 'credibility'],
+            # "definitions": 
+                # {
+                    # 'informativeness': 
+                        # {
+                            # 'Informative': 'Der Tweet ist informativ und enthält allgemeine Informationen. Er sollte einen gewissen Bezug zu COVID-19 haben.', 
+                            # 'Personal_Experience': 'Der Text ist informativ und berichtet über persönliche Erfahrungen (bezüglich Krankheit, Impfung, Nebenwirkungen usw.).', 
+                            # 'none': 'Der Text hat entweder keinen Bezug zu COVID-19, oder hat einen Bezug zu COVID-19, enthält aber keine Informationen, z.B. wenn es sich um eine persönliche Aussage (Meinung) ohne informativen Hintergrund handelt, oder wenn es sich um einen humorvollen oder sarkastischen Kommentar handelt.'
+                        # },
+                    # 'topic': 
+                        # {
+                            # 'Case_Report': 'Der Text ist ein Fallbericht oder im Text geht es um Statistiken.', 
+                            # 'Consequences': 'Der Text berichtet über Folgen einer Covid-Infektion (Langzeit-Covid, psychologische Aspekte, etc.)', 
+                            # 'Governm_Decisions': 'Der Text berichtet über Maßnahmen und Entscheidungen der Bundesregierung und ihre Auswirkungen auf Menschen, Länder und die Wirtschaft.', 
+                            # 'Risk_Reduction': 'Im Text geht es um Möglichkeiten zur Minderung des Infektionsrisikos.', 
+                            # 'Vaccination': 'Im Text geht es um Impfung: Allgemeine Informationen über den Impfstoff, Verfügbarkeit, Nebenwirkungen.', 
+                            # 'none': 'Der Text behandelt keines der oben genannten Themen, oder es ist unklar, um welches Thema es sich handelt, z. B. weil der Kontext fehlt oder weil der Inhalt nur andeutet, worum es geht.'
+                        # }, 
+                    # 'credibility': 
+                        # {
+                            # 'credible': 'Der Text und sein Inhalt scheinen bis zu einem gewissen Grad glaubwürdig zu sein.',
+                            # 'non-credible': 'Der Text und sein Inhalt scheinen nicht glaubwürdig zu sein und es ist sehr fraglich, ob man ihm trauen kann.', 
+                            # 'none': 'Anhand des Textes ist es nicht möglich zu entscheiden, ob der Inhalt glaubwürdig ist oder nicht.'
+                        # }
+                # },
+            # "questions": 
+                # {
+                    # 'informativeness': "Ist der Text informativ und hat der Text Bezug zu COVID-19? Antworte bitte mit einem Wort und als Antwort verwende eine Kategorie aus dieser Liste:\n- {}\n", 
+                    # 'topic': "Über welches Thema wird es im Text gesprochen? Antworte bitte mit einem Wort und als Antwort verwende eine Kategorie aus dieser Liste:\n- {}\n",
+                    # 'credibility': "Enthält der Text Tatsachenbehauptungen? Antworte bitte mit einem Wort und als Antwort verwende eine Kategorie aus dieser Liste:\n- {}\n"
+                # }
+        # },
     "speech_acts_coarse": 
         {
             "file": 
                 {
-                    "train": "speechacts_coarse_train.csv",
-                    "test": "speechacts_coarse_test.csv"
+                    "train": "data/speechacts_coarse_train.csv",
+                    "test": "data/speechacts_coarse_test.csv"
                 },
             "columns": ['text', 'coarse labels', 'fine labels'],
             "tasks": ['coarse labels'],
@@ -69,8 +69,8 @@ datasets={
         {
             "file": 
                 {
-                    "train": "speechacts_fine_train.csv",
-                    "test": "speechacts_fine_test.csv"
+                    "train": "data/speechacts_fine_train.csv",
+                    "test": "data/speechacts_fine_test.csv"
                 },
             "columns": ['text', 'coarse labels', 'fine labels'],
             "tasks": ['fine labels'],

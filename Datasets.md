@@ -1,9 +1,9 @@
 **Table of contents**
-1. [German Twitter COVID-19 Dataset](http://localhost:8888/notebooks/Documents/GitHub/LLMs-fails/German%20Datasets.ipynb#German-Twitter-COVID-19-Dataset:-Topic-based-Credibility-Annotations)
-2. [German Speech Act Dataset](http://localhost:8888/notebooks/Documents/GitHub/LLMs-fails/German%20Datasets.ipynb#German-Speech-Act-Dataset)
-3. [German HASOC2020](http://localhost:8888/notebooks/Documents/GitHub/LLMs-fails/German%20Datasets.ipynb#HASOC-2020:-Hate-Speech-and-Offensive-Content-Identification-in-Indo-European-Languages-(German))
-4. [GermEval 2019 Subtask 2: The Shared Task on Identification of Offensive Language](http://localhost:8888/notebooks/Documents/GitHub/LLMs-fails/German%20Datasets.ipynb#GermEval-2019-Subtask-2:-The-Shared-Task-on-Identification-of-Offensive-Language)
-5. [GermEval 2021: The Shared Task on the Identification of Toxic, Engaging, and Fact-Claiming Comments](http://localhost:8888/notebooks/Documents/GitHub/LLMs-fails/German%20Datasets.ipynb#GermEval-2021:-The-Shared-Task-on-the-Identification-of-Toxic,-Engaging,-and-Fact-Claiming-Comments)
+1. [German Twitter COVID-19 Dataset](https://github.com/elenanereiss/Limits-of-LLMs-for-German-Text-Classification/blob/main/Datasets.md#german-twitter-covid-19-dataset-topic-based-credibility-annotations)
+2. [German Speech Act Dataset](https://github.com/elenanereiss/Limits-of-LLMs-for-German-Text-Classification/blob/main/Datasets.md#german-speech-act-dataset)
+3. [German HASOC2020](https://github.com/elenanereiss/Limits-of-LLMs-for-German-Text-Classification/blob/main/Datasets.md#hasoc-2020-hate-speech-and-offensive-content-identification-in-indo-european-languages-german)
+4. [GermEval 2019 Subtask 2: The Shared Task on Identification of Offensive Language](https://github.com/elenanereiss/Limits-of-LLMs-for-German-Text-Classification/blob/main/Datasets.md#germeval-2019-subtask-2-the-shared-task-on-identification-of-offensive-language)
+5. [GermEval 2021: The Shared Task on the Identification of Toxic, Engaging, and Fact-Claiming Comments](https://github.com/elenanereiss/Limits-of-LLMs-for-German-Text-Classification/blob/main/Datasets.md#germeval-2019-subtask-2-the-shared-task-on-identification-of-offensive-language)
 
 
 **Overview**
@@ -55,7 +55,7 @@ The dataset includes 643 tweets extracted during the pandemic (from 2020-03-01 t
 
 ## Dataset
 
-Due to Twitter's content redistribution policy, we are unable to publish the full dataset, but provide annotations and tweet IDs on request.
+Due to Twitter's (X's) content redistribution policy, the dataset is not published. The authors can provide annotations and tweet IDs on request.
 
 ## Distribution
 
@@ -141,6 +141,8 @@ German Speech Act Dataset consists of a subset of 600 tweets taken from GermEval
 ## Dataset
 
 You can find the dataset on the GitHub at [https://github.com/MelinaPl/speech-act-analysis](https://github.com/MelinaPl/speech-act-analysis).
+
+Since there is no official training and test split, we created these splits for coarse- and fine-grained annotations (s. [`data/`](https://github.com/elenanereiss/Limits-of-LLMs-for-German-Text-Classification/blob/main/data) folder).
 
 ## Distribution
 

@@ -10,11 +10,19 @@ This repo is dedicated to an analysis of the LLMs performance as text classifier
 - peft fine-tuning using qlora
 
 ### Datasets
-- German Twitter COVID-19 Dataset (not publicly available)
-- [German Speech Act Dataset](https://github.com/MelinaPl/speech-act-analysis)
-- [German HASOC2020](https://hasocfire.github.io/hasoc/2020/index.html)
-- [GermEval 2019 Subtask 2: The Shared Task on Identification of Offensive Language](https://fz.h-da.de/iggsa/data)
-- [GermEval 2021: The Shared Task on the Identification of Toxic, Engaging, and Fact-Claiming Comments](https://germeval2021toxic.github.io/SharedTask/)
+
+
+| Dataset                     | Citation                                                | Task                                                   | Size |
+|-----------------------------|---------------------------------------------------------|--------------------------------------------------------|------|
+| **German COVID-19 Twitter** | submitted                                               | informativeness, topic, credibility                    | 643  |
+| **German Speech Act Dataset](https://github.com/MelinaPl/speech-act-analysis)**      | Plakidis and Rehm (2022)                                | coarse and fine classification                         | 1959 |
+| **[German HASOC2020](https://hasocfire.github.io/hasoc/2020/index.html)**              | Mandl, Modha, Kumar M, and Chakravarthi (2021)          | coarse and fine classification                         | 2899 |
+| **[GermEval 2019 Subtask 2: The Shared Task on Identification of Offensive Language](https://fz.h-da.de/iggsa/data)**           | Struß, Siegel, Ruppenhofer, Wiegand, and Klenner (2019) | coarse and fine classification                         | 7026 |
+|                             |                                                         | classification of implicit/explicit offensive language | 2888 |
+| **[GermEval 2021: The Shared Task on the Identification of Toxic, Engaging, and Fact-Claiming Comments](https://germeval2021toxic.github.io/SharedTask/)**           | Risch, Stoll, Wilms, and Wiegand (2021)                 | toxic, engaging, fact claming comment classification   | 4188 |
+
+
+For further information please see [datasets description](https://github.com/elenanereiss/Limits-of-LLMs-for-German-Text-Classification/blob/main/Datasets.md).
 
 ### Models
 
@@ -34,6 +42,8 @@ Further information about datasets can be found here []().
 - [BübleLM-2B](https://huggingface.co/flair/bueble-lm-2b)
 
 ## Results
+
+Results per class can be found [here](https://github.com/elenanereiss/Limits-of-LLMs-for-German-Text-Classification/blob/main/Results.md#results-per-class).
 
 | dataset             | task             | approach   |   Llama-3.2-3B precision |   Llama-3.2-3B recall |   Llama-3.2-3B f1-score |   EuroLLM-9B precision |   EuroLLM-9B recall |   EuroLLM-9B f1-score |   Teuken-7B precision |   Teuken-7B recall |   Teuken-7B f1-score |   BübleLM precision |   BübleLM recall |   BübleLM f1-score |
 |:--------------------|:-----------------|:-----------|-------------------------:|----------------------:|------------------------:|-----------------------:|--------------------:|----------------------:|----------------------:|-------------------:|---------------------:|--------------------:|-----------------:|-------------------:|
