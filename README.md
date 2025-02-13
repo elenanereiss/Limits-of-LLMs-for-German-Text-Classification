@@ -15,7 +15,7 @@ This repo is dedicated to an analysis of the LLMs performance as text classifier
 | Dataset                     | Citation                                                | Task                                                   | Size |
 |-----------------------------|---------------------------------------------------------|--------------------------------------------------------|------|
 | **German COVID-19 Twitter** | submitted                                               | informativeness, topic, credibility                    | 643  |
-| **German Speech Act Dataset](https://github.com/MelinaPl/speech-act-analysis)**      | Plakidis and Rehm (2022)                                | coarse and fine classification                         | 1959 |
+| **[German Speech Act Dataset](https://github.com/MelinaPl/speech-act-analysis)**      | Plakidis and Rehm (2022)                                | coarse and fine classification                         | 1959 |
 | **[German HASOC2020](https://hasocfire.github.io/hasoc/2020/index.html)**              | Mandl, Modha, Kumar M, and Chakravarthi (2021)          | coarse and fine classification                         | 2899 |
 | **[GermEval 2019 Subtask 2: The Shared Task on Identification of Offensive Language](https://fz.h-da.de/iggsa/data)**           | Struß, Siegel, Ruppenhofer, Wiegand, and Klenner (2019) | coarse and fine classification                         | 7026 |
 |                             |                                                         | classification of implicit/explicit offensive language | 2888 |
